@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import LECTURE_DETAIL_DATA from "../../data/lectureDetailData";
-import { Link } from "react-router-dom";
-import css from "./LectureDetail.module.css";
+import React, { useState, useEffect } from 'react';
+import LECTURE_DETAIL_DATA from 'app/data/lectureDetailData';
+import { Link } from 'react-router-dom';
+import css from 'app/pages/LectureDetail/LectureDetail.module.css';
 
 const LectureDetail = () => {
   const [data, setData] = useState([]);
@@ -15,15 +15,15 @@ const LectureDetail = () => {
       <div className="banner">
         <div className="container">
           <h1>{title}</h1>
-          <div className={css["profile-box"]}>
+          <div className={css['profile-box']}>
             <Link to={`/profile/${authorId}`}>
               <img
-                className={css["author-profile-img"]}
+                className={css['author-profile-img']}
                 src={authorImage}
                 alt="강사 프로필 사진"
               />
             </Link>
-            <div className={css["author-box"]}>
+            <div className={css['author-box']}>
               <Link className="author" to={`/profile/${authorId}`}>
                 {authorName}
               </Link>

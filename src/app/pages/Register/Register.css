@@ -1,18 +1,48 @@
+.form-group .alert {
+  width: 48vw;
+  margin: 0 auto;
+  top: 50px;
+  max-width: 580px;
+}
+
 .register-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.register-container .text-xs-center a {
+.register-container h2 {
+  font-size: 30px;
+  border-top: 3px solid;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.register-container .text-xs-left a {
   color: #5cb85c;
+  text-decoration: none;
 }
 
 .register-container .btn {
   background-color: #5cb85c;
   border-color: #5cb85c;
+  color: white;
+  font-size: 20px;
 }
 
-.invalid-feedback {
-  position: relative;
-  bottom: 10px;
+.individual-info-box {
+  padding-top: 30px;
+}
+
+.gender-radio input {
+  margin: 10px 10px 0;
+}
+
+.address {
+  margin: 20px 0;
+}
+
+.invalid {
+  color: #dc3545;
+  font-size: 14px;
+  margin-bottom: 10px;
 }

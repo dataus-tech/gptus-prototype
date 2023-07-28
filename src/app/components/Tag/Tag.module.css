@@ -1,0 +1,10 @@
+.tag {
+  display: flex;
+  width: fit-content;
+  padding: 0 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  border: 1px solid #b5b5b5;
+  margin: 10px 25px;
+}

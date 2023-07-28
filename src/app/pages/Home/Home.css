@@ -1,0 +1,269 @@
+.home {
+  overflow: hidden;
+}
+
+.banner {
+  height: 376px;
+  margin: 0;
+  padding: 0;
+  background-color: #41a24b;
+}
+
+.container {
+  display: flex;
+  height: 376px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-box {
+  color: #fff;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.5px;
+  letter-spacing: -1.96px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.slogan {
+  color: #373737;
+  font-family: Noto Sans KR;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -2.833px;
+  margin-bottom: 19px;
+}
+
+.slogan-kr {
+  width: 299px;
+  height: 60px;
+  color: #737373;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.21px;
+}
+
+.right-box {
+  display: flex;
+}
+
+.right-box-item {
+  margin: 26px 51px;
+}
+
+.num {
+  color: #41a24b;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.5px;
+  letter-spacing: -1.96px;
+}
+
+.text {
+  color: #414141;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 47.5px;
+}
+
+.learning-order {
+  display: inline-flex;
+  height: 26px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 160px;
+  background-color: white;
+  color: #1f1f1f;
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  font-weight: 350;
+  letter-spacing: -0.27px;
+}
+
+.guide {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-box {
+  margin-top: 60px;
+  border-radius: 17px;
+  padding: 0 200px;
+  border: 1px solid #d4d4d4;
+}
+
+.learning-guide {
+  color: #f83e3e;
+  font-family: Noto Sans KR;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin-bottom: 19px;
+}
+
+.category-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1094px;
+  height: 169px;
+}
+
+.category-box img {
+  position: relative;
+  top: 20px;
+}
+
+.category-text {
+  color: #212121;
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  letter-spacing: -0.27px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-deck {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apply-tutor {
+  display: flex;
+  width: 1093px;
+  padding: 46px 49px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 82px auto 94px;
+  border-radius: 10px;
+  background: #def1d2;
+}
+
+.apply-tutor-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: -0.96px;
+}
+
+.apply {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.96px;
+}
+
+.new-lecture,
+.hot-lecture,
+.mentoring-board {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: Noto Sans KR;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+}
+
+.new,
+.hot {
+  color: #f83e3e;
+}
+
+.new-lecture-text,
+.hot-lecture-text,
+.mentoring-text {
+  color: #1f1f1f;
+  font-family: Noto Sans KR;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.33px;
+  margin: 7px 0;
+}
+
+.new-lecture-box,
+.hot-lecture-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-week-best {
+  color: #1f1f1f;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+
+.lecture-num {
+  color: #5f5f5f;
+  display: flex;
+  height: 28px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 91px;
+  background: #eaeaea;
+}
+
+.hot-lecture,
+.mentoring-board {
+  margin-top: 97px;
+}
+
+.carousel-card {
+  width: 249px;
+  height: 312px;
+  padding: 0;
+  background-color: white;
+  border: 0;
+}
+
+.card-img {
+  width: 249px;
+  height: 140px;
+}
+
+.carousel-card .card-body {
+  background-color: white;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  padding: 10px;
+  z-index: 100;
+  color: #949494;
+  background-color: white;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  right: 100px;
+  margin-right: 100px;
+}
+
+.lecture-img {
+  padding-right: 3px;
+}

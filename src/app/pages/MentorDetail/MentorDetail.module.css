@@ -1,0 +1,16 @@
+.profile-box {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.author-profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.author-box {
+  margin-left: 10px;
+}

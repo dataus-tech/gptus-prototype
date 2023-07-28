@@ -1,0 +1,23 @@
+.find-id-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.find-id-container h2 {
+  font-size: 30px;
+  border-top: 3px solid;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.find-id-container .text-xs-left a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+.find-id-container .btn {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  color: white;
+  font-size: 20px;
+}

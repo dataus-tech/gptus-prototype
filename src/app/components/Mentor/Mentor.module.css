@@ -1,0 +1,35 @@
+.mentor-container {
+  max-width: 825px;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.author-profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-box {
+  margin-left: 10px;
+}
+
+.author {
+  color: #5cb85c;
+}
+
+.date {
+  color: #bbb;
+  font-size: 12.8px;
+}
